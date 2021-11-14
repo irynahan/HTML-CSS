@@ -1,0 +1,139 @@
+*{
+    _box-sizing: border-box;
+    padding: 0;
+    margin:0;  
+}
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(img/b-interior.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;   
+}
+
+header,  .logo, .menu {
+    _border: 1px solid red;   
+}
+
+.logo, .menu {
+    _border: 1px solid rgb(132, 0, 255);   
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.692);
+    height: 20%;
+}
+
+.logo {
+    display: inline-block;
+    width: 60px;
+    margin-left: 350px;
+    margin-top: 10px;
+    
+}
+.menu {
+    top:10px;
+    display: inline-block;
+    font-size: 18px;
+    position: absolute;
+    right: 170px;
+}
+
+nav a {
+    _font-size: 18px;
+    _padding: 15px;
+    _display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 150px;
+    padding: 20px;
+}
+
+.submenu {
+    position: absolute;
+    right: 240px;
+    display: none;
+    width: 150px;
+}
+.menu ul li:hover {
+    background-color: rgba(255, 218, 185, 0.678);
+}
+
+
+.menu ul .list:hover .submenu{
+    display: block;
+}
+
+.menu:hover .submenu{
+    display: block;
+}
+
+main {
+    width: 40%;
+    margin: 200px auto;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 200%;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button1, .button2 {
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 5px 20px;
+    width: 100px;
+}
+
+.button1 {
+    background-color:rgba(255, 218, 185, 0.89);
+}
+
+.button1:hover , .button2:hover {
+    background-color:rgba(255, 218, 185, 0.596);
+}
+
+
+footer {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background-color: peachpuff;
+    border-radius: 10px;
+    margin: auto;
+    _border: 3px solid white;
+    padding: 10px;
+    
+}
+
+footer:hover {
+    border: 3px solid white;
+}
+
+
+footer img {
+    width: 80%
+    margin: auto;
+}
+
+
+
